@@ -5,10 +5,12 @@ import matplotlib.pyplot as plt
 from scipy.optimize import curve_fit
 
 # Read in our data
-data = pd.read_csv("data.csv")
+df = pd.read_csv("data.csv")
 
 # Get our data columns as numpy arrays
-x_data = data["Distance to Center (arcminutes)"]
-y_data = data["Rotational Velocity (km/sec)"]
+distance = df["Distance to Center (arcminutes)"]
+velocity = df["Rotational Velocity (km/sec)"]
+
+print(df)
 
 # TODO: We'll complete the lab together!
