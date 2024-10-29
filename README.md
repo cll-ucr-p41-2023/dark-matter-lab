@@ -6,12 +6,24 @@ In this lab, we will visualize and analyze Vera Rubin's evidence for the existen
 
 ## Instructions
 
-1. Open Terminal or WSL
+### MacOS
 
-3) Clone this repository by typing the following into the command line
+1. Open Terminal
+2. Clone this repository by typing the following into the command line
 
 `git clone https://github.com/cll-ucr-p41-2023/dark-matter-lab.git`
 
-4. Install the necessary Python libraries for this lab
+4. Install the necessary Python libraries for this lab (Note: You may need to run `pip3` instead of `pip`.)
+
+`pip install numpy matplotlib pandas scipy`
+
+### Windows
+
+1. Open WSL
+2. Clone this repository by typing the following into the command line
+
+`git clone https://github.com/cll-ucr-p41-2023/dark-matter-lab.git`
+
+3. Install the necessary Python libraries for this lab
 
 `sudo apt install python3-numpy python3-matplotlib python3-pandas python3-scipy`
