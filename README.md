@@ -13,7 +13,7 @@ In this lab, we will visualize and analyze Vera Rubin's evidence for the existen
 
 `git clone https://github.com/cll-ucr-p41-2023/dark-matter-lab.git`
 
-4. Install the necessary Python libraries for this lab (Note: You may need to run `pip3` instead of `pip`.)
+3. Install the necessary Python libraries for this lab (Note: You may need to run `pip3` instead of `pip`.)
 
 `pip install numpy matplotlib pandas scipy`
 
