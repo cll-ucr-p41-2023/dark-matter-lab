@@ -27,3 +27,5 @@ In this lab, we will visualize and analyze Vera Rubin's evidence for the existen
 3. Install the necessary Python libraries for this lab
 
 `sudo apt install python3-numpy python3-matplotlib python3-pandas python3-scipy`
+
+**NOTE**: If you run into an error at this step, try running `sudo apt update` and trying again.
